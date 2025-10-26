@@ -47,19 +47,19 @@ cd Mini_ai
 Create a Python Virtual Environment:
 (Using venv5 as an example name, like in our setup)
 
-python -m venv venv5
+python -m venv v5
 
 
 Activate the Virtual Environment:
 
 On Windows (PowerShell):
 
-.\venv5\Scripts\Activate.ps1
+.\v5\Scripts\Activate.ps1
 
 
 On macOS / Linux:
 
-source venv5/bin/activate
+source v5/bin/activate
 
 
 Install the required libraries:
@@ -123,7 +123,7 @@ URL Parameters: text and labels (comma-separated)
 
 Test URL:
 
-[http://127.0.0.1:5000/classify?text=Apple](http://127.0.0.1:5000/classify?text=Apple) just announced the new M5 chip&labels=technology,sports,politics,food
+[http://1.0.0.1:5000/classify?text=Apple](http://1.0.0.1:5000/classify?text=Apple) just announced the new M5 chip&labels=technology,sports,politics,food
 
 
 Sample Response:
@@ -157,7 +157,7 @@ URL Parameter: text
 
 Test URL:
 
-[http://127.0.0.1:5000/extract?text=My](http://127.0.0.1:5000/extract?text=My) name is Rohan and I work at Google in India.
+[http://1.0.0.1:5000/extract?text=My](http://1.0.0.1:5000/extract?text=My) name is Rohan and I work at Google in India.
 
 
 Sample Response:
